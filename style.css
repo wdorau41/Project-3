@@ -66,10 +66,9 @@
             height: 200px;
           }
 
-/*@media screen and (min-width: 600px) {
-  body {
-
-
+@media screen and (min-width: 600px) {
+  p {
+    overflow-wrap: normal; 
   }
+
 }
-note for mobile editting*/
