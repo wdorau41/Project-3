@@ -1,0 +1,72 @@
+
+  nav ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #555;
+  }
+    nav li {
+      float: left;
+    }
+      a {
+      display: block;
+      color: white;
+      text-align: center;
+      border-right: 1px solid white;
+      padding: 20px;
+      }
+    /* Change the link color on hover */
+    nav li a :hover {
+      background-color: #555;
+      color: grey;
+    }
+    .active {
+     color: pink;
+    }
+
+    div li {
+      padding: 5px;
+    }
+  body {
+    background-color: grey;
+    color: white;
+  }
+    p {
+      text-align: left;
+      width: 600px;
+    }
+
+  h1 {
+    margin-top: 70px;
+    border-bottom: 4px solid #555;
+    width: 100%;
+  }
+    h2 {
+      border-bottom: 2px solid #555;
+      width: 600px;
+    }
+      h3 {
+        border-bottom: 2px solid #555;
+        width: 600px;
+      }
+        h4 {
+          margin-top: 25px;
+          border-bottom: 2px solid #555;
+          width: 220px;
+        }
+          img {
+            width: 150px;
+            height: 200px;
+          }
+
+/*@media screen and (min-width: 600px) {
+  body {
+
+
+  }
+}
+note for mobile editting*/
