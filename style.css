@@ -10,13 +10,16 @@
     background-color: #555;
   }
     nav li {
+      left: 35%;
       float: left;
+      position: relative;
     }
       a {
       display: block;
       color: white;
       text-align: center;
       border-right: 1px solid white;
+      border-left: 1px solid white;
       padding: 20px;
       }
     /* Change the link color on hover */
@@ -28,9 +31,9 @@
      color: pink;
     }
 
-    div li {
-      padding: 5px;
-    }
+  div li {
+    padding: 5px;
+  }
   body {
     background-color: grey;
     color: white;
