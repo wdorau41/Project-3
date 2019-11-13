@@ -1,3 +1,6 @@
 var vid = document.getElementById("music");
-vid.autoplay = true;
-vid.load();
+function play(vid){
+  vid.autoplay = true;
+  vid.load();
+}
+vid.addEventListener('load', play);
